@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Norimichi Miwaのプロフィール</title>
+    <meta charset="utf-8">
+    <meta name="desctiption" content="天才エンジニアのプロフィールです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- slickの読み込み -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- ここでGoogle Fontsを読み込みます -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- ナビゲーションメニュー -->
+    <header>
+      <nav>
+        <div>
+          <a href="index.html" id="nav-profile">My Profile</a>
+        </div>
+        <div class="menu">
+          <a href="index.html#about">About</a>
+          <a href="index.html#works">Memories</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <!-- メインビジュアル -->
+        <div class="carousel">
+          <div><img class="carouselImg" src="images/top1.png"></div>
+          <div><img class="carouselImg" src="images/top2.png"></div>
+          <div><img class="carouselImg" src="images/top3.png"></div>
+        </div>
+
+        <!-- TOPに戻るボタン -->
+        <a href="#" id="page-top">TOP</a>
+
+        <!-- About -->
+        <h1 class="index-h1">About</h1>
+        <section id="about">
+            <img id="people" src="images/about.jpeg" alt="kazuki asahinaの写真">
+            <div class="content">
+              <h3 id="index-h3">Norimichi Miwa</h3>
+              <ul id="index-ul">
+                <li>25歳 ロサンゼルス出身&emsp;オックスフォード大学卒業</li>
+                <li>ソフトウェア業界の異端児&emsp;天才エンジニアと言われている</li>
+                <li>実家は酒屋で酒好きの血が流れている&emsp;よく酒に飲まれる</li>
+                <li>状況を顧みずいつも外に出ている&emsp;結果先月コロナに罹患</li>
+              </ul>
+            </div>
+          </div>  
+        </section>
+
+        <!-- Works -->
+        <h1 class="index-h1">Memories summer</h1>
+        <section id="works">
+          <div class="item">
+           <img class="photo" src="images/summer1.png" alr="日本海">
+           <p>赤レンガ倉庫でお祭り。<br>夜景が綺麗なのに昼から酒飲んで眠くなって帰る。</p>              
+          </div>
+          <div class="item item_center">
+           <img class="photo" src="images/summer2.png" alt="冠雪した御岳山">
+           <p>川越の神社。<br>夏に浴衣はアチい。はよ帰りたかった。</p>              
+          </div>
+          <div class="item">
+           <img class="photo" src="images/summer3.png" alt="京都の街並み">
+           <p>抹茶がうめえ。<br>日本に生まれてよかった理由１位。</p>             
+          </div>
+          <div class="item">
+            <img class="photo" src="images/summer4.png" alr="日本海">
+            <p>長岡花火大会。<br>全人類にオススメしたい。</p>              
+           </div>
+           <div class="item item_center">
+            <img class="photo" src="images/summer5.png" alt="冠雪した御岳山">
+            <p>公園でピクニック。<br>野菜食べれんのに、インスタ映え狙いで色鮮やかにするのやめて？</p>              
+           </div>
+           <div class="item">
+            <img class="photo" src="images/summer6.png" alt="京都の街並み">
+            <p>グランピングはガチでエモい。<br>それだけ。</p>             
+           </div>
+        </section>
+
+        <!-- モーダル -->
+        <div id="modal">
+          <img src="" class="Img">
+          <a href="" class="close-btn">×</a>
+        </div>
+
+
+      </article>
+    </main>
+    <!-- フッター -->
+    <footer>
+      <p>&copy; MyProfile. All rights reserved.<p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <!-- slickの読み込み -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  </body>
+</html>
